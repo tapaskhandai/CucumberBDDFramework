@@ -1,0 +1,361 @@
+[INFO ] 2023-08-23 10:53:41.448 [main] LoginPageSteps - Chromedriver Initiated
+[INFO ] 2023-08-23 10:53:51.236 [main] LoginPageSteps - Navigated to Specified URL
+[INFO ] 2023-08-23 10:53:53.693 [main] LoginPageSteps - Username and password entered
+[INFO ] 2023-08-23 10:53:59.962 [main] LoginPageSteps - All fields have been filled of new address
+[INFO ] 2023-08-23 10:54:00.118 [main] LoginPageSteps - Broswer Closed
+[INFO ] 2023-08-23 10:54:01.270 [main] LoginPageSteps - Chromedriver Initiated
+[INFO ] 2023-08-23 10:54:03.851 [main] LoginPageSteps - Navigated to Specified URL
+[INFO ] 2023-08-23 10:54:06.502 [main] LoginPageSteps - Screenshot taken and saved at /Users/tapaskumarkhandai/eclipse-workspace/CodeStudioCF/ScreenshotOlzMk
+[INFO ] 2023-08-23 10:54:06.637 [main] LoginPageSteps - Broswer Closed
+[INFO ] 2023-08-23 10:54:07.317 [main] LoginPageSteps - Chromedriver Initiated
+[INFO ] 2023-08-23 10:54:10.072 [main] LoginPageSteps - Navigated to Specified URL
+[INFO ] 2023-08-23 10:54:12.425 [main] LoginPageSteps - Username and password entered
+[INFO ] 2023-08-23 10:54:13.693 [main] LoginPageSteps - Broswer Closed
+[INFO ] 2023-08-23 20:13:52.218 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-23 20:13:56.128 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 20:13:58.503 [main] Steps - Username and password entered
+[INFO ] 2023-08-23 20:14:07.056 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-08-23 20:14:07.240 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 20:14:08.007 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-23 20:14:11.013 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 20:14:13.788 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 20:14:14.531 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-23 20:14:17.274 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 20:14:19.523 [main] Steps - Username and password entered
+[INFO ] 2023-08-23 20:14:20.642 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 20:17:12.862 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 20:17:16.537 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 20:17:19.611 [main] Steps - Username and password entered
+[INFO ] 2023-08-23 20:17:24.754 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-08-23 20:17:24.950 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 20:17:26.352 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 20:17:28.997 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 20:17:32.426 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 20:17:33.420 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 20:17:36.191 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 20:17:39.366 [main] Steps - Username and password entered
+[INFO ] 2023-08-23 20:17:40.564 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 21:00:57.917 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 21:01:01.322 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 21:01:03.549 [main] Steps - Username and password entered
+[INFO ] 2023-08-23 21:01:08.834 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-08-23 21:01:09.030 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 21:01:10.034 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 21:01:13.508 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 21:01:16.182 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 21:01:17.206 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 21:01:20.548 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 21:01:22.829 [main] Steps - Username and password entered
+[INFO ] 2023-08-23 21:01:24.049 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 21:11:15.125 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 21:11:18.695 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 21:11:21.772 [main] Steps - Username and password entered
+[INFO ] 2023-08-23 21:11:26.711 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-08-23 21:11:26.915 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 21:11:27.926 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 21:11:31.805 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 21:11:35.766 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 21:11:36.685 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 21:11:40.302 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 21:11:42.661 [main] Steps - Username and password entered
+[INFO ] 2023-08-23 21:11:43.837 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 21:13:55.910 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 21:13:59.467 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 21:14:02.966 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 21:14:04.084 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 21:14:06.735 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 21:14:09.825 [main] Steps - Username and password entered
+[INFO ] 2023-08-23 21:14:11.101 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 21:14:33.560 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 21:14:35.558 [main] Steps - Navigated to Specified URL
+[INFO ] 2023-08-23 21:14:38.629 [main] Steps - Username and password entered
+[INFO ] 2023-08-23 21:14:42.672 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-08-23 21:14:42.866 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 21:27:54.979 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-23 21:27:58.483 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-23 21:28:01.463 [main] Steps - Username and password entered
+[INFO ] 2023-08-23 21:28:07.524 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-08-23 21:28:07.720 [main] Steps - Broswer Closed
+[INFO ] 2023-08-23 21:29:04.642 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-23 21:29:08.141 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-23 21:29:10.933 [main] Steps - Screenshot taken and saved at /Users/tapaskumarkhandai/eclipse-workspace/CodeStudioCF/ScreenshotvNpxp
+[INFO ] 2023-08-23 21:29:11.044 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 16:07:41.835 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 16:07:45.930 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 16:07:50.329 [main] Steps - Screenshot taken and saved at /Users/tapaskumarkhandai/eclipse-workspace/CodeStudioCF/ScreenshoteHJvx
+[INFO ] 2023-08-24 16:07:50.441 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 16:12:42.841 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 16:12:46.415 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 16:12:55.824 [main] Steps - Screenshot taken and saved at /Users/tapaskumarkhandai/eclipse-workspace/CodeStudioCF/ScreenshotMZSFn
+[INFO ] 2023-08-24 16:12:55.951 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 16:16:19.917 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 16:16:23.580 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 16:16:35.549 [main] Steps - Screenshot taken and saved at /Users/tapaskumarkhandai/eclipse-workspace/CodeStudioCF/ScreenshotXamwO
+[INFO ] 2023-08-24 16:16:35.674 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 16:18:11.144 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 16:18:22.467 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 16:18:25.947 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 16:18:37.808 [main] Steps - Screenshot taken and saved at /Users/tapaskumarkhandai/eclipse-workspace/CodeStudioCF/ScreenshotbaOqg
+[INFO ] 2023-08-24 16:18:37.937 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 16:19:32.472 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 16:19:36.097 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 16:19:47.945 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 16:22:50.705 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 16:22:54.244 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 16:23:02.953 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 16:39:01.520 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 16:39:05.538 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 16:39:09.499 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 16:41:18.304 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 16:41:22.245 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 16:41:29.052 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 17:07:43.481 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 17:07:46.827 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 17:07:53.492 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 17:08:47.282 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 17:08:54.399 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 17:09:12.592 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 17:10:44.774 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 17:10:48.345 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 17:11:01.421 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 17:21:25.952 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-24 17:21:29.635 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 17:21:43.674 [main] Steps - Broswer Closed
+[INFO ] 2023-08-24 17:22:53.621 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-24 17:22:56.870 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-24 17:23:10.622 [main] Steps - Broswer Closed
+[INFO ] 2023-08-27 12:31:31.585 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-27 12:31:38.010 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-27 12:31:52.608 [main] Steps - Broswer Closed
+[INFO ] 2023-08-28 20:23:40.460 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-28 20:23:44.826 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-28 20:23:58.856 [main] Steps - Broswer Closed
+[INFO ] 2023-08-28 20:37:15.796 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-28 20:37:20.324 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-28 20:38:16.840 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-08-28 20:38:20.026 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-28 20:38:24.842 [main] Steps - Broswer Closed
+[INFO ] 2023-08-28 20:41:32.694 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-08-28 20:41:37.260 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-08-28 20:41:42.117 [main] Steps - Broswer Closed
+[INFO ] 2023-09-05 15:16:51.347 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-05 15:16:55.052 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-05 15:17:00.329 [main] Steps - Broswer Closed
+[INFO ] 2023-09-05 17:18:46.426 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-05 17:18:50.434 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-05 17:18:55.379 [main] Steps - Broswer Closed
+[INFO ] 2023-09-05 19:23:24.530 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-05 19:23:28.687 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-05 19:23:33.626 [main] Steps - Broswer Closed
+[INFO ] 2023-09-05 19:24:05.063 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-09-05 19:24:07.969 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-05 19:24:12.203 [main] Steps - Broswer Closed
+[INFO ] 2023-09-13 19:37:02.829 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-09-13 19:37:06.892 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-13 19:37:12.454 [main] Steps - Broswer Closed
+[INFO ] 2023-09-16 14:27:57.488 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-09-16 14:28:01.619 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-16 14:28:09.644 [main] Steps - Broswer Closed
+[INFO ] 2023-09-16 15:24:39.952 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-16 15:24:43.225 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-16 15:24:48.190 [main] Steps - Broswer Closed
+[INFO ] 2023-09-16 15:26:45.584 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-16 15:26:48.293 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-16 15:26:52.501 [main] Steps - Broswer Closed
+[INFO ] 2023-09-16 15:27:44.749 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-16 15:27:48.203 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-16 15:27:52.398 [main] Steps - Broswer Closed
+[INFO ] 2023-09-16 15:35:42.447 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-16 15:35:45.905 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-16 15:35:49.977 [main] Steps - Broswer Closed
+[INFO ] 2023-09-16 15:39:12.080 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-16 15:39:15.516 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-16 15:39:20.748 [main] Steps - Broswer Closed
+[INFO ] 2023-09-16 15:48:03.307 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-16 15:48:07.172 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-16 15:48:12.602 [main] Steps - Broswer Closed
+[INFO ] 2023-09-16 15:54:01.820 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-16 15:54:05.351 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-16 15:54:10.226 [main] Steps - Broswer Closed
+[INFO ] 2023-09-16 16:08:16.329 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-16 16:08:20.644 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-16 16:08:25.830 [main] Steps - Broswer Closed
+[INFO ] 2023-09-16 16:32:41.715 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-16 16:32:44.744 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-16 16:32:50.006 [main] Steps - Broswer Closed
+[INFO ] 2023-09-18 12:40:43.571 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-18 12:40:47.056 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-18 12:40:53.493 [main] Steps - Broswer Closed
+[INFO ] 2023-09-18 12:42:05.865 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-18 12:42:08.893 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-18 12:42:13.010 [main] Steps - Broswer Closed
+[INFO ] 2023-09-18 12:58:04.423 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-18 12:58:08.345 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-18 12:58:12.504 [main] Steps - Broswer Closed
+[INFO ] 2023-09-19 13:28:48.502 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-19 13:28:52.261 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-19 13:28:59.710 [main] Steps - Broswer Closed
+[INFO ] 2023-09-19 15:53:01.180 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-19 15:53:05.076 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-19 15:53:10.183 [main] Steps - Broswer Closed
+[INFO ] 2023-09-23 12:18:10.648 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-23 12:18:14.499 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-23 12:18:18.650 [main] Steps - Broswer Closed
+[INFO ] 2023-09-25 17:10:11.128 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-25 17:10:14.779 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-25 17:10:21.953 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 14:05:19.568 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 14:05:23.510 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 14:05:29.658 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 14:17:04.756 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 14:17:08.547 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 14:17:13.475 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 14:17:14.189 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 14:17:17.765 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 14:17:20.276 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 14:17:20.809 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 14:35:27.317 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 14:35:31.005 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 14:35:34.299 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 14:35:35.490 [main] Steps - Dummy Step Created
+[INFO ] 2023-09-26 14:35:35.874 [main] Steps - Screenshot taken and saved at /Users/tapaskumarkhandai/eclipse-workspace/CodeStudioCF/ScreenshotvYejM
+[INFO ] 2023-09-26 14:35:35.987 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 14:36:34.940 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 14:36:39.614 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 14:36:42.079 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 14:36:43.300 [main] Steps - Dummy Step Created
+[INFO ] 2023-09-26 14:37:35.979 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 14:37:39.880 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 14:37:42.146 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 14:37:42.544 [main] Steps - Dummy Step Created
+[INFO ] 2023-09-26 14:49:35.898 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 14:49:39.358 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 14:49:42.362 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 14:49:48.332 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-09-26 14:56:04.081 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 14:56:08.044 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 14:56:12.604 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 14:56:18.440 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-09-26 14:56:18.636 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 15:02:17.670 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 15:02:22.798 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 15:02:25.251 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 15:02:27.487 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 15:06:26.075 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 15:06:29.581 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 15:06:32.648 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 15:06:34.623 [main] Steps - Screenshot taken and saved at /Users/tapaskumarkhandai/eclipse-workspace/CodeStudioCF/ScreenshotpqcJg
+[INFO ] 2023-09-26 15:06:34.760 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 15:08:27.794 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 15:08:30.684 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 15:08:33.929 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 15:08:38.668 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-09-26 15:08:38.818 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 15:11:16.448 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 15:11:20.337 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 15:11:23.730 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 15:11:28.874 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-09-26 15:11:29.064 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 15:11:48.717 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 15:11:52.403 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 15:11:55.630 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 15:12:00.460 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-09-26 15:12:00.640 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 15:12:01.345 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 15:12:04.005 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 15:12:06.220 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 15:12:07.468 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 15:12:45.937 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 15:12:49.225 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 15:12:51.901 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 15:12:57.027 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-09-26 15:12:57.186 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 15:12:57.938 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 15:13:00.732 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 15:13:03.064 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 15:13:04.409 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 16:11:34.958 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 16:11:38.326 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 16:11:40.530 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 16:11:45.842 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-09-26 16:11:46.010 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 16:31:46.946 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 16:31:51.244 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 16:31:53.914 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 16:32:00.583 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-09-26 16:32:00.763 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 16:34:20.234 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 16:34:23.818 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 16:34:26.877 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 16:34:31.814 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-09-26 16:34:31.975 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 16:46:20.940 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 16:46:25.127 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 16:46:30.148 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 16:46:30.875 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 16:46:35.588 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 16:46:38.448 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 16:46:40.007 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 16:54:24.115 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 16:54:27.838 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 16:54:32.720 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 16:54:33.441 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 16:54:36.497 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 16:54:39.532 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 16:54:40.835 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 16:57:45.593 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 16:57:49.263 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 16:57:53.542 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 16:57:54.283 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 16:57:57.287 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 16:58:00.526 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 16:58:02.913 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 17:05:56.183 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 17:05:59.968 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 17:06:03.357 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 17:06:06.184 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 17:06:06.910 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 17:06:09.697 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 17:06:14.488 [main] Steps - Broswer Closed
+[INFO ] 2023-09-26 17:06:15.190 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-26 17:06:18.605 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-26 17:06:20.868 [main] Steps - Username and password entered
+[INFO ] 2023-09-26 17:06:22.251 [main] Steps - Broswer Closed
+[INFO ] 2023-09-27 14:48:04.596 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-27 14:48:08.599 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-27 14:48:11.575 [main] Steps - Username and password entered
+[INFO ] 2023-09-27 14:48:19.453 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-09-27 14:48:19.644 [main] Steps - Broswer Closed
+[INFO ] 2023-09-27 14:48:20.449 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-27 14:48:23.242 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-27 14:48:27.154 [main] Steps - Broswer Closed
+[INFO ] 2023-09-27 14:48:27.848 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-27 14:48:30.946 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-27 14:48:33.116 [main] Steps - Username and password entered
+[INFO ] 2023-09-27 14:48:34.245 [main] Steps - Broswer Closed
+[INFO ] 2023-09-27 15:01:11.789 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-27 15:01:14.908 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-27 15:01:17.845 [main] Steps - Username and password entered
+[INFO ] 2023-09-27 15:01:21.390 [main] Steps - Clicked on My Account On profile
+[INFO ] 2023-09-27 15:01:23.249 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-09-27 15:01:23.400 [main] Steps - Broswer Closed
+[INFO ] 2023-09-27 15:01:24.526 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-27 15:01:28.144 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-27 15:01:30.817 [main] Steps - Broswer Closed
+[INFO ] 2023-09-27 15:01:31.549 [main] Steps - Chromedriver Initiated
+[INFO ] 2023-09-27 15:01:34.494 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-27 15:01:36.966 [main] Steps - Username and password entered
+[INFO ] 2023-09-27 15:01:38.093 [main] Steps - Broswer Closed
+[INFO ] 2023-09-27 15:06:43.798 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-09-27 15:06:47.152 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-27 15:06:49.605 [main] Steps - Username and password entered
+[INFO ] 2023-09-27 15:06:54.700 [main] Steps - Clicked on My Account On profile
+[INFO ] 2023-09-27 15:06:56.594 [main] Steps - All fields have been filled of new address
+[INFO ] 2023-09-27 15:06:56.802 [main] Steps - Broswer Closed
+[INFO ] 2023-09-27 15:06:57.948 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-09-27 15:07:00.842 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-27 15:07:03.709 [main] Steps - Broswer Closed
+[INFO ] 2023-09-27 15:07:04.440 [main] Steps - Edgedriver Initiated
+[INFO ] 2023-09-27 15:07:07.296 [main] Steps - Navigated tohttps://www.nopcommerce.com/enURL
+[INFO ] 2023-09-27 15:07:09.871 [main] Steps - Username and password entered
+[INFO ] 2023-09-27 15:07:11.235 [main] Steps - Broswer Closed
