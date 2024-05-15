@@ -11,8 +11,8 @@ import io.cucumber.testng.CucumberOptions;
 //@RunWith(Cucumber.class)
 @CucumberOptions(features = ".//Features", glue = { "stepDefinition" }, dryRun = false, monochrome = true,
 		// plugin = {"pretty", "html:target/HtmlReports/report.html" },
-		plugin = { "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }
-		//tags = "@register or @login"
+		plugin = { "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
+		tags = "@register"
 		)
 
 public class Runner extends AbstractTestNGCucumberTests {
