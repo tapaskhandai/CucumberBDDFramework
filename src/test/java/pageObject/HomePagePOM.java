@@ -6,7 +6,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePagePOM {
+import utilities.SeleniumUtilities;
+
+public class HomePagePOM extends SeleniumUtilities {
 
 	public WebDriver ldriver;
 
