@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import utilities.SeleniumUtilities;
 
@@ -18,29 +19,11 @@ public class HomePagePOM extends SeleniumUtilities {
 
 	}
 
-	@FindBy(xpath = "//li/span[text()='My account ']")
-	WebElement profileIcon;
+	@FindBy(xpath = "(//img[@alt='profile picture'])[1]")
+	WebElement button_logged_user;
 
-	@FindBy(xpath = "//span[text()='My account']")
-	WebElement button_MyAccount;
-
-	@FindBy(xpath = "(//a[text()='Get started'])[2]")
-	WebElement get_started;
-
-	@FindBy(xpath = "//a[text()='Addresses']")
-	WebElement option_addresses;
-
-	@FindBy(xpath = "//*[@id='Address_FirstName']")
-	WebElement textbox_firstname_addresess;
-
-	@FindBy(xpath = "//*[@id='Address_LastName']")
-	WebElement textbox_lastname_addresess;
-
-	@FindBy(xpath = "//*[@value='Save']")
-	WebElement button_save_addresses;
-
-	@FindBy(xpath = "//input[@type='button']")
-	WebElement button_AddNew_addresses;
+	@FindBy(xpath = "//a[normalize-space()='Logout']123")
+	WebElement button_logout;
 
 	public void mouseHoverOnProfileIcon(WebElement ele) {
 
@@ -48,32 +31,23 @@ public class HomePagePOM extends SeleniumUtilities {
 			Actions action = new Actions(ldriver);
 			action.moveToElement(ele).perform();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 	}
 
-	public void clickOnMyAccountOnProfile() {
+	public void verify_homepage_title() {
 
-		mouseHoverOnProfileIcon(profileIcon);
-		button_MyAccount.click();
+		Assert.assertEquals(get_title(), "OrangeHRM", "Title does not match");
+		log.info("Tile verified successfully");
 	}
 
-	public void clickOnAddressesOption() {
+	public void verify_logout() {
+		
+		button_logged_user.click();
+		button_logout.click();
+		log.info("Logout button clicked successfully");
 
-		option_addresses.click();
-		button_AddNew_addresses.click();
-	}
-
-	public void enterAllFieldsOfNewAddress() {
-
-		textbox_firstname_addresess.sendKeys("Andy");
-		textbox_lastname_addresess.sendKeys("Mathur");
-	}
-
-	public void clickOnSaveButton() {
-
-		button_save_addresses.click();
 	}
 
 }
