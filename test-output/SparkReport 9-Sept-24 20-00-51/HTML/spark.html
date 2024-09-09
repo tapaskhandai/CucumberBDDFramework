@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Automation Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">May 11, 2024 07:33:05 pm</span></a>
+<a href="#"><span class="badge badge-primary">Sept 9, 2024 08:00:51 pm</span></a>
 </li>
 </ul>
 </div>
@@ -84,7 +84,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@loginpage</a><a class="dropdown-item" href="#">@register</a>
+<a class="dropdown-item" href="#">@TC_02</a><a class="dropdown-item" href="#">@homepage</a>
 </ul>
 </li>
 </ul>
@@ -95,9 +95,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Customer Login & Register</p>
+            <p class="name">HomePage feature</p>
             <p class="text-sm">
-              <span>7:33:05 pm</span> / <span>00:00:15:475</span>
+              <span>8:00:51 pm</span> / <span>00:00:08:547</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -105,10 +105,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Customer Login & Register</h5>
-<span class='badge badge-success'>05.11.2024 7:33:05 pm</span>
-<span class='badge badge-danger'>05.11.2024 7:33:21 pm</span>
-<span class='badge badge-default'>00:00:15:475</span>
+<h5 class="test-status text-fail">HomePage feature</h5>
+<span class='badge badge-success'>09.09.2024 8:00:51 pm</span>
+<span class='badge badge-danger'>09.09.2024 8:01:00 pm</span>
+<span class='badge badge-default'>00:00:08:547</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -120,31 +120,51 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>To verify register functionality</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>To verify user logs out successfully</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
       </div>
     </div>
-        <div class="">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepDefinition.Steps.i_navigate_to_nop_commerce_web_page()">
-                <span>Given I navigate to nopCommerce web page</span>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>To verify user logs out successfully</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given I navigate to orangeHRM url</span>
       <div>
       </div>
-              </div>
-              <div class="step fail-bg" title="stepDefinition.Steps.i_click_on_register_button_of_profile_icon()">
-                <span>When I click on register button of profile icon</span>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I enter user "Admin" and password "admin123"</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=124.0.6367.158)
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When I click on login-submit button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I verify user logs out from homepage</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.InvalidSelectorException: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //a[normalize-space()='Logout']123 because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[normalize-space()='Logout']123' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=128.0.2739.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ece87ebf5321c3f58066889754a85274, clickElement {id=f.CA1792BF2E7A2238492E5B3CFAB59F22.d.65C4470AA2FB0CEEEAB1B4F370C73C84.e.27}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.158, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\tapas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50642}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50642/devtoo..., se:cdpVersion: 124.0.6367.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ece87ebf5321c3f58066889754a85274)] -> xpath: //span[text()='Register']]
-Session ID: ece87ebf5321c3f58066889754a85274
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2a901a5f2b46c99c48284c9c19bd7106, findElement {value=//a[normalize-space()='Logout']123, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51308}, msedge: {msedgedriverVersion: 128.0.2739.67 (248489733b87..., userDataDir: C:\Users\tapas\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51308/devtoo..., se:cdpVersion: 128.0.2739.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a901a5f2b46c99c48284c9c19bd7106
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -155,22 +175,23 @@ Session ID: ece87ebf5321c3f58066889754a85274
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy38.click(Unknown Source)
-	at pageObject.LoginPagePOM.clickOnRegisterButton(LoginPagePOM.java:90)
-	at stepDefinition.Steps.i_click_on_register_button_of_profile_icon(Steps.java:41)
-	at ✽.I click on register button of profile icon(file:///C:/Users/tapas/git/CucumberBDDFramework/./Features/loginpage.feature:7)
+	at pageObject.HomePagePOM.verify_logout(HomePagePOM.java:48)
+	at stepDefinition.HomePageSteps.i_verify_user_logs_out_from_homepage(HomePageSteps.java:10)
+	at ✽.I verify user logs out from homepage(file:///C:/Users/tapas/git/CucumberBDDFramework/./Features/homepage.feature:9)
 </textarea>
       
       </div>
-              </div>
-              <div class="step pass-bg" title="AFTER_STEP">
-                <span>stepDefinition.Steps.takeScreenshot(io.cucumber.java.Scenario)</span>
-      <div>To verify register functionality
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepDefinition.LoginPageSteps.takeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>To verify user logs out successfully
           <div class="row mb-3"><div class="col-md-3">
 <img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
     
@@ -178,62 +199,14 @@ Session ID: ece87ebf5321c3f58066889754a85274
 </div>
       <div>
       </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinition.Steps.i_fill_all_the_input_with_below_values(io.cucumber.datatable.DataTable)">
-                <span>When I fill all the input with below values</span>
-      <div><table class='markup-table table '><tr><td>FirstName</td><td>LastName</td><td>Email</td><td>ConfirmEmail</td><td>Usename</td></tr><tr><td>Lipsta</td><td>Mohapatra</td><td>lipsita@gmail.com</td><td>lipsita@gmail.com</td><td>Lipsita321</td></tr></table>
-      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When I click on login-submit button</span>
       <div>Step skipped
       </div>
+                  </div>
               </div>
-              <div class="step skip-bg" title="stepDefinition.Steps.i_click_on_check_avaibility_button()">
-                <span>When I click on check avaibility button</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinition.Steps.i_select_country_from_dropdown(java.lang.String)">
-                <span>When I select country "India" from dropdown</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinition.Steps.i_select_timezone_from_dropdown(java.lang.String)">
-                <span>When I select timezone "(UTC-10:00) Hawaii" from dropdown</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinition.Steps.i_fill_password_fields_with_below_values(io.cucumber.datatable.DataTable)">
-                <span>And I fill password fields with below values</span>
-      <div><table class='markup-table table '><tr><td>password</td><td>confirmPassword</td></tr><tr><td>abcd@1234</td><td>abcd@1234</td></tr></table>
-      </div>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinition.Steps.i_select_your_account_details_mycomany_from_dropdown(java.lang.String)">
-                <span>When I select your account details mycomany "Other" from dropdown</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinition.Steps.i_select_your_account_details_mainactivity_from_dropdown(java.lang.String)">
-                <span>When I select your account details mainactivity "Technical developer" from dropdown</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinition.Steps.i_select_your_account_details_companysize_from_dropdown(java.lang.String)">
-                <span>When I select your account details companysize "2–5" from dropdown</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinition.Steps.i_enter_my_company_website(java.lang.String)">
-                <span>And I enter my company website "yyy.com"</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step skip-bg" title="stepDefinition.Steps.i_click_on_register_button()">
-                <span>Then I click on register button</span>
-      <div>Step skipped
-      </div>
-              </div>
-          </div>
+            </div>
         </div>
   </div>
 </div>
@@ -261,12 +234,12 @@ Session ID: ece87ebf5321c3f58066889754a85274
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.ElementNotInteractableException</p>
+<p class="name">org.openqa.selenium.InvalidSelectorException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.ElementNotInteractableException</h4>
+<h4>org.openqa.selenium.InvalidSelectorException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -280,11 +253,11 @@ Session ID: ece87ebf5321c3f58066889754a85274
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>19:33:10 pm</td>
+<td>20:00:58 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='6'>When I click on register button of profile icon</a>
+<a href="#" class="linked" test-id='1' id='11'>Then I verify user logs out from homepage</a>
 <div class="">
-<span class="badge badge-default">Customer Login & Register.To verify register functionality.When I click on register button of profile icon</span>
+<span class="badge badge-default">HomePage feature.To verify user logs out successfully.Then I verify user logs out from homepage</span>
 </div>
 </td>
 </tr>
@@ -313,12 +286,12 @@ Session ID: ece87ebf5321c3f58066889754a85274
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">@loginpage</p>
+<p class="name">@TC_02</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@loginpage</h4>
+<h4>@TC_02</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -332,11 +305,11 @@ Session ID: ece87ebf5321c3f58066889754a85274
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>19:33:05 pm</td>
+<td>20:00:51 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>To verify register functionality</a>
+<a href="#" class="linked" test-id='1' id='3'>To verify user logs out successfully</a>
 <div class="">
-<span class="badge badge-default">Customer Login & Register.To verify register functionality</span>
+<span class="badge badge-default">HomePage feature.To verify user logs out successfully</span>
 </div>
 </td>
 </tr>
@@ -349,12 +322,12 @@ Session ID: ece87ebf5321c3f58066889754a85274
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">@register</p>
+<p class="name">@homepage</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@register</h4>
+<h4>@homepage</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -368,11 +341,11 @@ Session ID: ece87ebf5321c3f58066889754a85274
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>19:33:05 pm</td>
+<td>20:00:51 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>To verify register functionality</a>
+<a href="#" class="linked" test-id='1' id='3'>To verify user logs out successfully</a>
 <div class="">
-<span class="badge badge-default">Customer Login & Register.To verify register functionality</span>
+<span class="badge badge-default">HomePage feature.To verify user logs out successfully</span>
 </div>
 </td>
 </tr>
@@ -393,13 +366,13 @@ Session ID: ece87ebf5321c3f58066889754a85274
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>May 11, 2024 07:33:05 pm</h3>
+<h3>Sept 9, 2024 08:00:51 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>May 11, 2024 07:33:21 pm</h3>
+<h3>Sept 9, 2024 08:01:00 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -470,10 +443,10 @@ Session ID: ece87ebf5321c3f58066889754a85274
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='15%'><b>2</b> steps passed</small></div>
+<div><small data-tooltip='66%'><b>4</b> steps passed</small></div>
 <div>
-<small data-tooltip='7%'><b>1</b> steps failed,
-<b>10</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='16%'><b>1</b> steps failed,
+<b>1</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -489,7 +462,7 @@ Session ID: ece87ebf5321c3f58066889754a85274
 </div></div>
 <script>
 var timeline = {
-"Customer Login & Register":15.475
+"HomePage feature":8.547
 };
 </script>
 <div class="row">
@@ -499,7 +472,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@loginpage</td>
+<td>@TC_02</td>
 <td>0</td>
 <td>1</td>
 <td>0</td>
@@ -507,7 +480,7 @@ var timeline = {
 <td>0%</td>
 </tr>
 <tr>
-<td>@register</td>
+<td>@homepage</td>
 <td>0</td>
 <td>1</td>
 <td>0</td>
@@ -534,7 +507,7 @@ var timeline = {
 </tr>
 <tr>
 <td>os</td>
-<td>Mac_OS_Ventura</td>
+<td>Windows_11</td>
 </tr>
 </tbody>
 </table></div>
@@ -556,10 +529,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 2,
+passGrandChild: 4,
 failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 10,
+skipGrandChild: 1,
 infoGrandChild: 0,
 eventsCount: 5,
 };

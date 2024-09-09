@@ -1,17 +1,14 @@
 @homepage
 Feature: HomePage feature
 
-  @addnewcustomer
-  Scenario Outline: To verify adding new adress functionality
-    Given I navigate to nopCommerce web page
-    When I click on login button of profile icon
-    When I enter username "<username>" and password "<password>"
-    Then I click on login button
-    When I click on My Account button
-    And I clcik on Adresses option
-    And I enter the required details
-    And I click on save button
+  @TC_02
+  Scenario Outline: To verify user logs out successfully
+    Given I navigate to orangeHRM url
+    When I enter user "<username>" and password "<password>"
+    When I click on login-submit button
+    Then I verify user logs out from homepage
+    When I click on login-submit button
 
     Examples: 
       | username | password |
-      | Jitun123 | abcd@123 |
+      | Admin    | admin123 |

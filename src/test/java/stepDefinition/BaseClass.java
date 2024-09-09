@@ -1,16 +1,22 @@
 package stepDefinition;
 
 import java.time.Duration;
+import java.util.Arrays;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 
+import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import pageObject.HomePagePOM;
 import pageObject.LoginPagePOM;
@@ -31,7 +37,11 @@ public class BaseClass {
 
 		if (readconfig.broswerName().equalsIgnoreCase("Chrome")) {
 
-			driver = new ChromeDriver();
+			ChromeOptions opt = new ChromeOptions();
+			// opt.addArguments("--incognito"); //open browser in incognito mode
+			opt.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));// to disable "chrome is
+																								// being controlled...."
+			driver = new ChromeDriver(opt);
 			log.info("Chromedriver Initiated");
 
 		} else if (readconfig.broswerName().equalsIgnoreCase("edge")) {
@@ -49,10 +59,16 @@ public class BaseClass {
 		homepage = new HomePagePOM(driver);
 	}
 
+	public void navigateToUrl() {
+
+		driver.get(readconfig.getUrl());
+		log.info("Navigated to: " + readconfig.getUrl() + "URL");
+	}
+
 	public void addScreenshot(Scenario scenario) {
 
 		if (scenario.isFailed() == true) {
-			
+
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			final byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
 			scenario.attach(screenshot, "image/png", scenario.getName());
@@ -62,7 +78,7 @@ public class BaseClass {
 
 	public String randomStringGenerator() {
 
-		return RandomStringUtils.randomAlphabetic(5);
+		return RandomStringUtils.randomAlphabetic(4);
 	}
 
 	public void quitDriver() {

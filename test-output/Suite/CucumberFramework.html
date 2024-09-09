@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 25 16:59:41 IST 2023</td>
+<td>Started on:</td><td>Wed Jul 03 20:30:07 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (321 ms)</td>
+<tr><td>Total time:</td><td>14 seconds (14381 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,17 +76,21 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testrunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify register functionality", "Customer Login & Register"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;utilities.ReadConfigClass.getUrl()&quot; because &quot;this.readconfig&quot; is null
-	at stepDefinition.Steps.i_navigate_to_nop_commerce_web_page(Steps.java:29)
-	at ✽.I navigate to nopCommerce web page(file:///Users/tapaskumarkhandai/eclipse-workspace/CodeStudioCF/./Features/loginpage.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1443173326", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1443173326'><pre>java.lang.NullPointerException: Cannot invoke &quot;utilities.ReadConfigClass.getUrl()&quot; because &quot;this.readconfig&quot; is null
-	at stepDefinition.Steps.i_navigate_to_nop_commerce_web_page(Steps.java:29)
-	at ✽.I navigate to nopCommerce web page(file:///Users/tapaskumarkhandai/eclipse-workspace/CodeStudioCF/./Features/loginpage.feature:6)
+<td title='testrunner.Runner.runScenario()'><b>runScenario</b><br>Test class: testrunner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify adding new adress functionality", "HomePage feature"</td>
+<td><div><pre>java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at utilities.SeleniumUtilities.explicitWait(SeleniumUtilities.java:64)
+	at pageObject.LoginPagePOM.clickOnLoginButtonOnProfile(LoginPagePOM.java:96)
+	at stepDefinition.Steps.i_click_on_login_button_of_profile_icon(Steps.java:127)
+	at ✽.I click on login button of profile icon(file:///C:/Users/tapas/git/CucumberBDDFramework/./Features/homepage.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace4573619", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace4573619'><pre>java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at utilities.SeleniumUtilities.explicitWait(SeleniumUtilities.java:64)
+	at pageObject.LoginPagePOM.clickOnLoginButtonOnProfile(LoginPagePOM.java:96)
+	at stepDefinition.Steps.i_click_on_login_button_of_profile_icon(Steps.java:127)
+	at ✽.I click on login button of profile icon(file:///C:/Users/tapas/git/CucumberBDDFramework/./Features/homepage.feature:7)
 </pre></div></td>
-<td>0</td>
-<td>testrunner.Runner@76505305</td></tr>
+<td>12</td>
+<td>testrunner.Runner@671a5887</td></tr>
 </table><p>
 </body>
 </html>
