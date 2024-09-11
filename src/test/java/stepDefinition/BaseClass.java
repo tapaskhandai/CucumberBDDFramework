@@ -51,9 +51,15 @@ public class BaseClass {
 			driver = new EdgeDriver(options);
 			log.info("Edgedriver Initiated");
 
+		} else {
+			ChromeOptions opt = new ChromeOptions();
+			opt.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
+			driver = new ChromeDriver(opt);
+			log.info("Chromedriver Initiated");
+
 		}
 
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
 		driver.manage().window().maximize();
 		loginpage = new LoginPagePOM(driver);
 		homepage = new HomePagePOM(driver);
