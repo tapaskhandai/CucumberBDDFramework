@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features = ".//Features", glue = { "stepDefinition" }, dryRun = false, monochrome = true,
 		// plugin = {"pretty", "html:target/HtmlReports/report.html" },
 		plugin = { "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
-		tags = "@TC_01"
+		tags = "@TC_02"
 		)
 
 public class Runner extends AbstractTestNGCucumberTests {
